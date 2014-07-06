@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# video: http://ogp.me/ns/video#">
+    <meta charset="UTF-8">
+    <meta name="title" content="X">
+    <meta name="description" content="██████████████">
+    <meta name="viewport" content="minimal-ui">
+    <!-- Facebook -->
+    <meta property="fb:app_id" content="250513585138727">
+    <meta property="fb:admins" content="702524723">
+    <!-- Open Graph -->
+    <meta property="og:title" content="X">
+    <meta property="og:type" content="video">
+    <meta property="og:site_name" content="X">
+    <meta property="og:url" content="https://x.qiwi.com">
+    <meta property="og:description" content="██████████████">
+    <meta property="og:image" content="https://x.qiwi.com/assets/x_timeline.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="x.qiwi.com">
+    <meta property="twitter:title" content="X">
+    <meta property="twitter:description" content="██████████████">
+    <meta property="twitter:image:src" content="https://x.qiwi.com/assets/x_timeline.jpg">
+    <meta property="twitter:url" content="https://x.qiwi.com">
+    <title>X</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- build:css styles/style.min.css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- endbuild -->
+</head>
+<body ng-app="xq" class="display-table">
+    <div class="container vertical-align">
+        <div class="row text-center margin-top">
+            <img src="./assets/x_logo.png" alt="x.qiwi.com">
+        </div>
+        <div class="row" ng-view></div>
+    </div>
+    <script src="./bower_components/angular/angular.min.js"></script>
+    <script src="./bower_components/angular-route/angular-route.min.js"></script>
+    <script src="./bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>

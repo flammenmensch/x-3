@@ -1,0 +1,65 @@
+body {
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    font-weight: 100;
+    background: #000;
+    color: #fff;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: normal;
+    line-height: 60px;
+}
+
+.display-table {
+    display: table;
+}
+
+.vertical-align {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.margin-top {
+    margin-top: 60px;
+}
+
+.x-button {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 20px 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    font-size: 24px;
+}
+
+.x-button:hover,
+.x-button:active {
+    color: #fff;
+}
+
+.fade {
+    opacity: 1;
+}
+.fade.ng-enter,
+.fade.ng-leave {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.fade.ng-enter {
+    opacity: 0;
+}
+.fade.ng-enter-active {
+    opacity: 1;
+}
+.fade.ng-leave {
+    opacity: 1;
+}
+.fade.ng-leave-active {
+    opacity: 0;
+}
